@@ -1,0 +1,13 @@
+
+
+import requests
+
+import pandas as pd
+
+
+
+# Definiere die URL der CSV-Datei aus dem Internet
+
+csv_url = "https://data.statistik.gv.at/data/OGDEXT_VORNAMEN_1.csv"
+
+response = requests.get(csv_url)
